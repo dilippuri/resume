@@ -1,0 +1,111 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{url,parskip} 	%other packages for formatting
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+\usepackage{graphicx}
+\usepackage[ddmmyyyy]{datetime}
+\renewcommand{\dateseparator}{-}
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1pt}{1pt}
+
+\usepackage{geometry}
+\geometry{top=10mm,bottom=11mm,left=15mm,right=15mm}
+
+\begin{document}
+%\begin{minipage}{1cm}
+%\includegraphics[scale=0.6]{logo_iiitv.png}
+%\end{minipage}
+
+\begin{minipage}{.1\textwidth}
+\includegraphics[scale=0.6]{logo_iiitv.png}
+\end{minipage}%
+\begin{minipage}{1.5\textwidth}
+%------------------------------------------Personal Data---------------------------------------------%
+\hspace*{12cm}Last Updated on \today \\ \\
+\begin{large}
+\hspace*{4cm}\textbf{Dilip Puri}\vspace*{2mm}
+
+\hspace*{4cm}\textbf{Indian Institute of Information Technology, Vadodara}\vspace*{2mm}
+
+\hspace*{4cm}\textbf{Email:} 201351014@iiitvadodara.ac.in\vspace*{2mm}
+
+\hspace*{4cm}\textbf{Address}: Vill.-Paladi(s), Teh.-Sanchore, Dist.-Jalore, Rajasthan
+\end{large}    
+\end{minipage}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{llll}
+\textbf{Degree}&\textbf{Institute}&\textbf{Year}&\textbf{CPI/Aggregate}\vspace*{1mm} \\
+B.Tech.& Indian Institute of Information Technology, Vadodara & 2013-2017 & 6.5(persuing)\\
+Intermidiate/+2 & Gayatri Vidhya Mandir Sr. Sec. School, Sanchore(RBSE) & 2010-2012 & 81.40\%\\
+High School & Adarsh Vidhya Mandir, Sanchore(RBSE) & 2009-2010 & 78\%\\
+\end{tabular}
+
+\vspace*{.4cm}
+%Section: Skills
+\section{Skills}
+\begin{tabular}{ll}
+\textbf{Area(s) of Interest} &Database Management, Artificial Intelligence, Machine Learning.\\
+\textbf{Programming Language(s)}&C, Python, \LaTeX.\\
+\textbf{Tools and Technologies} & GIT, Eclipse, $Texmaker$. \\
+\textbf{Database} & PostgreSQL, MySQL.\\
+\end{tabular}
+
+\vspace*{.5cm}
+%Section: Projects
+\section{Projects}
+\textbf{\large{Online Course System Database}} \hspace*{6cm} \textbf{Guide : Pokharmal Jat(DAIICT)}
+
+\vspace*{.051mm}
+\hspace*{2.6mm} This project tries to keep record of Online Course System and basically co-ordinates the courses of students of university. The system will keep record of Students, Courses, Instructors, Institutions and student(s) participation, Result etc.\\
+
+\textbf{\large{Google's PageRank Implementation}} \hspace*{6cm} \textbf{Guide : Jignesh Bhatt(IIITV)}
+
+\vspace*{.051mm}
+\hspace*{2.6mm} In this project we implemented small a scale version of Google's Pagerank Algorithm. The main aim was to rank interlinked webpages for given one or multiple words query and to sort the pages according to relevence with given query. This project was implemented in PHP, Octave and using phpMyadmin database tool.\\
+
+\textbf{\large{3-D reconstruction based on Stereo Vision}} \hspace*{3.6cm} \textbf{Guide : Gautam Dutta(DAIICT)}
+
+\vspace*{.051mm}
+\hspace*{2.6mm} The project is based on Stereo Vision. The aim was to extract 3D information of scene points from a given pair of stereo images. To find out depth of each scene point we dealt with Rectification and Correspondence problem. We calculated depth map of stereo images and relative distances of objects in the image.
+
+\vspace*{.5cm}
+\section{Internship}
+\textbf{\large{Optical Character Recognition for Aadhaar-Card}} \hspace*{6cm} \textbf{ATOS India}
+
+\vspace*{.051mm}
+\hspace*{2.6mm} In this project we created OCR services to extract the meaningful data from scan image of Aadhaar-Card. Accuracy of extract data almost 80-80$\%.$ The meaningful like Name, Date of birth, Aadhaar-Card No., Address, etc. In this project we used opencv for image processing and python-tesseact library for text extraction.\\
+
+\vspace*{.4cm}
+%Section: Awards and Achievements
+\section{Awards and Achievements}
+\begin{itemize}
+\item Scholarship for Higher-Education by Department of Science and Technology, Delhi
+%\item Won 1st prize in Debat e Competition in Avsar Cultural event held at AITS
+%\item Won 1st Prize in project Presentation in Immaculat e'13
+\end{itemize}
+
+%Section: Position(s) of Responsibility
+%\section{Position(s) of Responsibility}
+%\begin{tabular}{lr}
+%Member student Hostel Committee, IIIT-V\\
+%Member student Mess Committee, IIIT-V\\
+%\end{tabular}
+\vspace*{.1cm}
+%Section: Interests and Activities
+\section{Interests and Hobbies}
+\begin{itemize}
+\item Watching Documetaries and TED videos, Reading books, Cycling, Social Work.
+\end{itemize}
+%
+%\vspace*{3cm}
+%\textbf{Declaration} : I hereby declare that all the details furnished above are true to the best of my %knowledge and belief.
+\end{document}
