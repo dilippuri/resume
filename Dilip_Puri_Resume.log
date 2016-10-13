@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.3)  28 SEP 2016 15:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.10.6)  12 OCT 2016 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Dilip_Puri_Resume.tex
 (./Dilip_Puri_Resume.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 12 languages loaded.
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -423,61 +423,81 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 24.
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
-
- []
-
-
-Overfull \hbox (317.36526pt too wide) in paragraph at lines 22--38
+Overfull \hbox (317.36526pt too wide) in paragraph at lines 22--40
 []$[]$$[]$ 
  []
 
 
-Overfull \hbox (20.57314pt too wide) in paragraph at lines 64--65
-[]|  \OT1/cmr/m/n/10 The project idea was to cre-ate a Web por-tal(common plat-
-form) and an An-droid ap-pli-ca-tion for sell-ing/buying/ratings/reviews
+Overfull \hbox (0.23192pt too wide) in paragraph at lines 66--67
+[]\OT1/cmr/bx/n/12 Len-Den |  \OT1/cmr/bx/n/10 A Hackathon Project 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
 
-Overfull \hbox (4.30669pt too wide) in paragraph at lines 66--67
-[]\OT1/cmr/bx/n/12 Google's PageR-ank Im-ple-men-ta-tion |  \OT1/cmr/bx/n/10 Gu
-ide : Jig-nesh Bhatt(IIITV) 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
+
+Overfull \hbox (2.30092pt too wide) in paragraph at lines 79--80
+[]\OT1/cmr/bx/n/12 PageRank Im-ple-men-ta-tion |  \OT1/cmr/bx/n/10 Guide : Jig-
+nesh Bhatt(IIITV) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Overfull \hbox (4.89923pt too wide) in paragraph at lines 85--86
+[]\OT1/cmr/bx/n/12 3D im-age re-con-struc-tion based on Stereo Vi-sion |  \OT1/
+cmr/bx/n/10 Guide : Gau-tam Dutta(DAIICT) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Overfull \hbox (3.88042pt too wide) in paragraph at lines 91--92
+[]\OT1/cmr/bx/n/12 Image Steganog-ra-phy us-ing Client-Server Com-mu-ni-ca-tion
+ |  \OT1/cmr/bx/n/10 Guide : Jig-nesh Bhatt(IIITV) 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo_iiitv.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 108.
+
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
- [1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo_iiitv.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
- (./Dilip_Puri_Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+(./Dilip_Puri_Resume.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 Package rerunfilecheck Info: File `Dilip_Puri_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: 2ED324B51DCCAFC8AF064C2C667E709C;287.
  ) 
 Here is how much of TeX's memory you used:
- 7397 strings out of 494724
- 106320 string characters out of 6174698
- 217156 words of memory out of 5000000
- 10651 multiletter control sequences out of 15000+600000
+ 7398 strings out of 494985
+ 106326 string characters out of 6180356
+ 216758 words of memory out of 5000000
+ 10520 multiletter control sequences out of 15000+600000
  5152 words of font info for 19 fonts, out of 8000000 for 9000
- 102 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  35i,9n,35p,1031b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
@@ -487,10 +507,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb>
-Output written on Dilip_Puri_Resume.pdf (1 page, 111140 bytes).
+Output written on Dilip_Puri_Resume.pdf (2 pages, 110197 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
+ 79 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
  54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
